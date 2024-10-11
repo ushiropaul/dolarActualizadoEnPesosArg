@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerCard{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: cornflowerblue;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+.containerCard .infoProfile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.containerCard .infoProfile p{
+    font-size: 1.2rem;
+    font-family: system-ui;
+}
+
+.containerCard .infoProfile p a {
+    color: rgb(0, 72, 255);
+    font-weight: 600;
+}
+
+
+.containerCard .infoProfile h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.containerCard .usd-card{
+    border-radius: .5rem;
+    border: 1px dashed rgb(192, 233, 161);
+    padding: 1rem;
+    background-color: rgba(77, 133, 239, 0.88);
+}
+
+.containerCard .usd-card ul{
+    list-style: none;
+}
+
+.containerCard .usd-card ul li{
+    font-family: system-ui;
+}
+
+.containerCard .usd-card ul li span {
+    text-decoration: underline rgb(0, 59, 253);
+    font-weight: 500;
+    font-size: 1.3rem;
+    
+}
+
+
+
