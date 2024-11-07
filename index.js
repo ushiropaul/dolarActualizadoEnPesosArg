@@ -30,7 +30,7 @@ function displayValueUSDblue(data, type) {
     usdCard.innerHTML = `
         <ul>
             <li><strong>Tipo:</strong> <span>${type}</span></li>
-            <li><strong>Moneda:</strong> <span>${data.moneda} ${data.casa}</span></li>
+            <li><strong>Moneda:</strong> <span>${data.moneda}</span></li>
             <li><strong>Valor de compra:</strong> <span>$${data.compra} en pesos ARG</span></li>
             <li><strong>Valor promedio:</strong> <span>$${((data.venta + data.compra).toFixed(2) / 2)} en pesos ARG</span></li>
             <li><strong>Valor de venta:</strong> <span>$${data.venta} en pesos ARG</span></li>
